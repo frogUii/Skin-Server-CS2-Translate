@@ -39,7 +39,7 @@ function cambiarContenido() {
 
         case "m4a1s":
             contenido.innerHTML = `
-            <p>Printstream: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 984 0 0</strong></p><br>
+            <p>Printstream: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 984 0 0</strong><img class="icono" src="skins/m4a1s/printstream.webp" alt="skin"></p><br>
             <p>Welcome to the jungle: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 1001 0 0</strong></p><br>
             <p>Player Two: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 946 0 0</strong></p><br>
             <p>Chantico's Fire: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 548 0 0</strong></p><br>
