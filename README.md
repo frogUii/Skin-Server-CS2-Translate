@@ -3,4 +3,4 @@ Con esta web, podés acceder a los códigos de skins traducidos al español y gr
 Es necesario instalar el plugin siguiente:
 https://github.com/fuzzyscn/cs2_weapons_knife_skin
 
-La web mía:  https://froguii.github.io/skincodes.github.io/
+La web mía:  https://skinfuspanish.netlify.app/
