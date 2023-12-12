@@ -1,4 +1,6 @@
-"# skincodes.github.io" 
-Con esta web, podés acceder a los códigos de skins traducidos de la página skin.fu.link. Solamente puse los más importantes de momento.
+Con esta web, podés acceder a los códigos de skins traducidos al español y gráficamente de la página skin.fu.link. Solamente puse los más importantes de momento.
 
-La web:  https://froguii.github.io/skincodes.github.io/
+Es necesario instalar el plugin siguiente:
+https://github.com/fuzzyscn/cs2_weapons_knife_skin
+
+La web mía:  https://froguii.github.io/skincodes.github.io/
