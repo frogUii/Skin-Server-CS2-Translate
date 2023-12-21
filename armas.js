@@ -205,6 +205,62 @@ function cambiarContenidoOtro() {
             contenidoOtro.innerHTML = "<p>Selecciona una opción para ver el contenido.</p>";
             break;
         // Agrega más casos según sea necesario
+        case "bayoneta":
+            contenidoOtro.innerHTML = 
+            `
+                <p>Stained: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 43 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/stained.webp" alt="skin"></p><br>
+
+                <p>Lore: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 558 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/lore.webp" alt="skin"></p><br>
+
+                <p>Esmeralda: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 568 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/esmeralda.png" alt="skin"></p><br>
+
+                <p>Blue Steel: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 414 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/steel.webp" alt="skin"></p><br>
+
+                <p>Rubi: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 415 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/ruby.png" alt="skin"></p><br>
+
+                <p>Sapphire: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 416 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/safiro.png" alt="skin"></p><br>
+
+                <p>Damascus: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 410 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/damasco.webp" alt="skin"></p><br>
+
+                <p>Slaugther: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 59 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/rojo.webp" alt="skin"></p><br>
+
+                <p>Fade: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 38 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/fade.webp" alt="skin"></p><br>
+
+                <p>Marble Fade: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 413 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/marble.webp" alt="skin"></p><br>
+
+                <p>Autotronic: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 573 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/autotronic.webp" alt="skin"></p><br>
+
+                <p>Freehand: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 580 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/freehand.webp" alt="skin"></p><br>
+
+                <p>Ultravioleta: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 98 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/ultravioleta.webp" alt="skin"></p><br>
+
+                <p>Rust Coat: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 42 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/coat.webp" alt="skin"></p><br>
+
+                <p>Tiger Tooth: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 409 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/tiger.webp" alt="skin"></p><br>
+
+                <p>Black: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 563 0 0 500</strong><img class="icono" src="skins/fakas/bayoneta/black.webp" alt="skin"></p><br>
+
+
+            `;
+            break;
+        case "classic":
+            contenidoOtro.innerHTML = 
+            `
+                <p>Bosque: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 77 0 0 503</strong><img class="icono" src="skins/fakas/classic/bosque.webp" alt="skin"></p><br>
+
+                <p>Stained: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 43 0 0 503</strong><img class="icono" src="skins/fakas/classic/stained.webp" alt="skin"></p><br>
+
+                <p>Crimson: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 12 0 0 503</strong><img class="icono" src="skins/fakas/classic/crimson.webp" alt="skin"></p><br>
+
+                <p>Fade: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 38 0 0 503</strong><img class="icono" src="skins/fakas/classic/fade.webp" alt="skin"></p><br>
+
+                <p>Blue Steel: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 42 0 0 503</strong><img class="icono" src="skins/fakas/classic/blue.webp" alt="skin"></p><br>
+
+                <p>Blue Gem: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin skin 44 456 0 503</strong><img class="icono" src="skins/fakas/classic/bluegem.webp" alt="skin"></p><br>
+
+                <p>Slaugther: <button class="boton-copiar" onclick="copiarContenido(this)"><img src="icons/copy.svg" class="copy" alt="Copy Icon"></button><strong>skin 59 0 0 503</strong><img class="icono" src="skins/fakas/classic/rojo.webp" alt="skin"></p><br>
+            `;
+            break;
         case "talon":
             contenidoOtro.innerHTML = 
             `
